@@ -1,0 +1,4 @@
+Exception occurred while clicking 'My Account': Error: locator.click: Unsupported token "@value" while parsing css selector "input[@value="Login"]". Did you mean to CSS.escape it?
+Call log:
+  - waiting for input[@value="Login"]
+

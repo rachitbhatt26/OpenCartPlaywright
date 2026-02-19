@@ -1,0 +1,3 @@
+✅ Registration is completed!
+Logout Successfull, Home Page is displayed
+✅ Logout is completed!

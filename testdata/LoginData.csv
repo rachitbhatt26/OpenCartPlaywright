@@ -1,0 +1,8 @@
+testType,email,password,expected
+VALID,rachit.bhatt@gmail.com,Rachit123,SUCCESS
+VALID,rachit.bhatt@hotmail.com,Rachit123,SUCCESS
+VALID,rachitbhatt2026@yahoo.com,Rachit123,SUCCESS
+VALID,rachitbhatt9856@yahoo.com,Rachit123,SUCCESS
+VALID,rachit.bhatt@msn.com,Rachit123,SUCCESS
+VALID,rachitbhatt9592@yahoo.com,Rachit123,SUCCESS
+INVALID,abcxyz@abc.com,abcxyz,failure

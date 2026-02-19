@@ -1,0 +1,15 @@
+[
+  {
+    "testType": "VALID",
+    "email": "rachit.bhatt@gmail.com",
+    "password": "Rachit123",
+    "expected": "SUCCESS"
+  },
+
+  {
+    "testType": "INVALID",
+    "email": "abcxyz@xyz.com",
+    "password": "abcxyz",
+    "expected": "failure"
+  }
+]

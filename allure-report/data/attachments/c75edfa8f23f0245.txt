@@ -1,0 +1,18 @@
+Exception occurred while Loggin out: Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('//ul[@class="dropdown-menu dropdown-menu-right"]//a[normalize-space()="Logout"]')
+    - locator resolved to <a href="http://localhost/opencart/upload/index.php?route=account/logout">Logout</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
