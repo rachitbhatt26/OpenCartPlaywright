@@ -27,7 +27,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test --grep "@datadriven"
+        run: npx playwright test --grep "@sanity"
 
       - name: Upload Playwright HTML Report
         if: always()

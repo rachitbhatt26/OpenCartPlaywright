@@ -36,7 +36,7 @@ test.afterEach(async ({ page }) => {
 }
 )
 
-test('User registration @master @sanity @regression', async ({ }) => {
+test('User registration @master @regression', async ({ }) => {
     await homePage.clickMyAccount();
     await homePage.clickRegister();
 

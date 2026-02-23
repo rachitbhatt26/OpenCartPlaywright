@@ -10,7 +10,6 @@ Logout
 */
 
 import { test, expect } from '@playwright/test';
-import { RandomDataUtil } from "../utils/randomdatagenerator";
 import { HomePage } from "../pages/HomePage";
 import { LoginPage } from '../pages/LoginPage';
 import { TestConfig } from "../test.config";
@@ -40,7 +39,7 @@ test.afterEach(async ({ page }) =>
     }
 )
 
-test('MyAccountPage @master @sanity @regression', async ({ }) => 
+test('MyAccountPage @master @regression', async ({ }) => 
     {
     await homePage.clickMyAccount();
     //Order History

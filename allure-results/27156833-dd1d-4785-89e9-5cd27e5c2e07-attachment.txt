@@ -1,0 +1,4 @@
+Exception occurred while entering OrderHist: Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//ul[@class="dropdown-menu dropdown-menu-right"]//a[normalize-space()="Order History"]')
+

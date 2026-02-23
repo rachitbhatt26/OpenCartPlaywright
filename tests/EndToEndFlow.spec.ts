@@ -55,8 +55,8 @@ test('execute end-to-end test flow @end-to-end', async ({ page }) => {
     console.log("✅ Shopping cart verification completed!");
 
     // Step 6: Perform checkout (skipped for demo site)
-    /*await performCheckout(page);
-    console.log("✅ Checkout process completed!"); */
+    await performCheckout(page);
+    console.log("✅ Checkout process completed!"); 
     
 });
 
@@ -179,7 +179,7 @@ async function verifyShoppingCart(page: Page) {
 
 
 // Function to perform checkout (disabled for demo site)
-/*async function performCheckout(page: Page) {
+async function performCheckout(page: Page) {
       const config = new TestConfig();
     const shoppingCartPage = new ShoppingCartPage(page);
     await shoppingCartPage.clickOnCheckout(); // Navigate to checkout page
@@ -222,4 +222,3 @@ async function verifyShoppingCart(page: Page) {
 }
 
 
-*/
