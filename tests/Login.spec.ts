@@ -32,7 +32,7 @@ test.afterEach(async ({ page }) => {
 }
 )
 
-test('User Login @master @sanity @regression', async ({ }) => {
+test('User Login @sanity', async ({ }) => {
     await homePage.clickMyAccount();
     await homePage.clickLogin();
 

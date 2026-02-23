@@ -39,7 +39,7 @@ test.afterEach(async ({ page }) => {
 }
 )
 
-test('LogOutPage @master @sanity @regression', async ({ }) => {
+test('LogOutPage @master@regression', async ({ }) => {
     await homePage.clickMyAccount();
     await homePage.clickLogin();
  //Uname enter
