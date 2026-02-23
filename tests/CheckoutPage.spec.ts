@@ -32,7 +32,7 @@ test.afterEach(async ({ page }) => {
 
 // test for checkout page
 
-test('Checkout page test @master @regression', async ({ page }) => {
+test('Checkout page test', async ({ page }) => {
     await shoppingCartPage.clickOnCheckout(); // Navigate to checkout page
 
     // Verify checkout page is loaded

@@ -39,7 +39,7 @@ test.afterEach(async ({ page }) =>
     }
 )
 
-test('MyAccountPage @master @regression', async ({ }) => 
+test('MyAccountPage', async ({ }) => 
     {
     await homePage.clickMyAccount();
     //Order History

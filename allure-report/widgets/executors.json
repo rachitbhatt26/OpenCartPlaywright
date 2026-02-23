@@ -1,1 +1,1 @@
-[]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":6,"buildName":"PWopencart-local #6","buildUrl":"http://localhost:8080/job/PWopencart-local/6/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/PWopencart-local/6/allure"}]

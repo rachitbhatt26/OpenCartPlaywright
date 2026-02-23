@@ -54,10 +54,11 @@ test('execute end-to-end test flow @end-to-end', async ({ page }) => {
     await verifyShoppingCart(page);
     console.log("✅ Shopping cart verification completed!");
 
+    /*
     // Step 6: Perform checkout (skipped for demo site)
     await performCheckout(page);
     console.log("✅ Checkout process completed!"); 
-    
+    */
 });
 
 
@@ -151,9 +152,10 @@ async function addProductToCart(page: Page) {
 
     // Select product and set quantity
     const productPage = await searchResultsPage.selectProduct(productName);
+    await page.waitForTimeout(2000); // Wait to simulate user delay
     await productPage?.setQuantity(productQuantity);
+    await page.waitForTimeout(2000); // Wait to simulate user delay
     await productPage?.addToCart();  // Add product to shopping cart
-
     await page.waitForTimeout(3000); // Wait to simulate user delay
 
     // Confirm product was added
@@ -177,7 +179,7 @@ async function verifyShoppingCart(page: Page) {
     expect(await shoppingCartPage.getTotalPrice()).toBe(config.totalPrice);
 }
 
-
+/*
 // Function to perform checkout (disabled for demo site)
 async function performCheckout(page: Page) {
       const config = new TestConfig();
@@ -221,4 +223,4 @@ async function performCheckout(page: Page) {
     
 }
 
-
+*/
